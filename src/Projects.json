@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "title": "Anime quiz",
+    "link": "https://hailthychicken.github.io/Anime-IQ-Test/home.html",
+    "coverimage": "/anime_quiz.png",
+    "description": "Dive into the ultimate hub for anime lovers. Here, you can explore fun and fascinating anime facts about your favorite shows and characters, then challenge yourself with exciting quizzes to test your knowledge. Whether you’re a casual watcher or a true otaku, our site is the perfect place to learn, play, and see just how much of an anime expert you really are!"
+  },
+  {
+    "id": 1,
+    "title": "Help You Trade",
+    "link": "https://hailthychicken.github.io/HelpYouTrade/home.html",
+    "coverimage": "/help_you_trade.png",
+    "description": "Take control of your trading journey with a simple, intuitive platform designed to sharpen your market skills. Our site lets you choose from major indices, select your preferred timeframe, and predict buy or sell options with ease. Whether you’re practicing strategies or testing your market knowledge, Help You Trade gives you the tools to make smarter trading decisions in a risk-free environment."
+  }
+]

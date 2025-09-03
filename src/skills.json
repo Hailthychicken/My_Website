@@ -1,0 +1,15 @@
+[
+  { "name": "Html", "proficiency": "Advanced", "years": 3 },
+  { "name": "Css", "proficiency": "Intermediate", "years": 2 },
+  { "name": "JavaScript", "proficiency": "Intermediate", "years": 2 },
+  { "name": "React", "proficiency": "Intermediate", "years": 2 },
+  { "name": "Tailwindcss", "proficiency": "Intermediate", "years": 2 },
+  { "name": "Java", "proficiency": "Intermediate", "years": 5 },
+  { "name": "Python", "proficiency": "Advanced", "years": 3 },
+  { "name": "Lisp", "proficiency": "Intermediate", "years": 1 },
+  { "name": "Typescript", "proficiency": "Intermediate", "years": 3 },
+  { "name": "Node.js", "proficiency": "Intermediate", "years": 3 },
+  { "name": "SQL", "proficiency": "Beginner", "years": 4 },
+  { "name": "Next.js", "proficiency": "Beginner", "years": 3 },
+  { "name": "Git", "proficiency": "Intermediate", "years": 3 }
+]

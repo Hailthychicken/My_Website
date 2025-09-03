@@ -1,0 +1,20 @@
+[
+  {
+    "image_black": "/app_black.svg",
+    "image_white": "/app_white.svg",
+    "name": "Application Development",
+    "year": "2019 - present"
+  },
+  {
+    "image_black": "/web_black.svg",
+    "image_white": "/web_white.svg",
+    "name": "Web Development",
+    "year": "2019 - present"
+  },
+  {
+    "image_black": "/controller_black.svg",
+    "image_white": "/controller_white.svg",
+    "name": "Game Development",
+    "year": "2018 - present"
+  }
+]
