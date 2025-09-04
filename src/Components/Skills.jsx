@@ -19,22 +19,16 @@ const Skills = () => {
 
   return (
     <>
-      <div>
-        <ul className="skills-scrollbar flex items-center justify-start w-full h-[10vh] overflow-x-auto gap-4">
+      <div className="w-full">
+        <ul className="skills-scrollbar flex items-center justify-start w-full h-full overflow-x-auto gap-8 sm:gap-12 lg:gap-15 xl:gap-18">
           {skills.map((item) => (
-            <div key={item.name}>
-              <Skill
-                name={item.name}
-                years={item.years}
-                displaySkillDetails={() => displaySkillDetails(item)}
-                undisplaySkillDetails={() => undisplaySkillDetails(item)}
-              />
-              <Skilldetail
-                selectedSkill={item}
-                classname={className}
-                isActive={false}
-              />
-            </div>
+            <Skill
+              key={item.name}
+              name={item.name}
+              years={item.years}
+              displaySkillDetails={() => displaySkillDetails(item)}
+              undisplaySkillDetails={() => undisplaySkillDetails(item)}
+            />
           ))}
         </ul>
       </div>

@@ -15,7 +15,7 @@ const Projectlist = ({ projects }) => {
   return (
     <div className="relative w-full h-full overflow-hidden">
       <ul
-        className={`flex items-center h-full transition-transform duration-300`}
+        className="flex items-center h-full transition-transform duration-300"
         style={{ transform: `translateX(-${100 * projectIndex}%)` }}
       >
         {projects.map((project) => (
@@ -31,17 +31,13 @@ const Projectlist = ({ projects }) => {
 
       <button
         onClick={nextproject}
-        className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-gray-500 px-4 py-2 rounded-full h-[3.5vw] w-[3.5vw] flex items-center justify-center hover:bg-gray-300 active:bg-gray-500 "
-      >
-        <img src="/right-arrow.svg" alt="" srcset="" />
-      </button>
+        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-[url('/right-arrow.svg')] bg-no-repeat bg-center bg-cover py-2 px-2 sm:w-[4vw]  "
+      ></button>
 
       <button
         onClick={previousproject}
-        className="absolute left-2 top-1/2 bg-gray-500 -translate-y-1/2 z-10  px-4 py-2 rounded-full h-[3.5vw] w-[3.5vw] flex items-center justify-center hover:bg-gray-300 active:bg-gray-500  "
-      >
-        <img className="w-full h-full" src="/left-arrow.svg" alt="" srcset="" />
-      </button>
+        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-[url('/left-arrow.svg')] bg-no-repeat bg-center bg-cover  px-2 py-2 sm:w-[4vw] "
+      ></button>
     </div>
   );
 };

@@ -92,7 +92,7 @@ const Form = () => {
           Message
         </label>
         <textarea
-          className="h-[50%] border-2 border-blue-200 mb-4"
+          className="h-[20vw] sm:h-[18vw] lg-h[16vw] xl:h-[12vw] border-2 border-blue-200 mb-4"
           onChange={(e) => setMessage(e.target.value)}
           value={message}
           name="message"
@@ -100,11 +100,13 @@ const Form = () => {
           required
         ></textarea>
         <button
-          className="bg-blue-500 p-2 rounded w-[10vw] border-2 border-blue-500 cursor-pointer active:bg-blue-600 hover:bg-blue-400"
+          className="bg-blue-500 p-2 rounded w-[10vw] xl:w-[6vw] lg:w-[8vw] lg:h-[3vw] h-[5vw] flex items-center justify-center  border-2 border-blue-500 cursor-pointer active:bg-blue-600 hover:bg-blue-400"
           type="submit"
           onClick={handleSubmit}
         >
-          Send
+          <h1 className="text-[2.2vw] sm:text-[2vw] md:text-[1.5vw] lg:text-[1vw]">
+            Send
+          </h1>
         </button>
       </form>
     </div>

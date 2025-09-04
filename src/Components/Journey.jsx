@@ -5,17 +5,15 @@ import { useState } from "react";
 const Journey = () => {
   const [journeyitem, setjourneyitem] = useState([]);
   return (
-    <div className="w-[45vw] h-full  p-4 flex items-center justify-center">
-      <div className="flex flex-col gap-15 w-full h-[70%] ">
-        {journey.map((item) => (
-          <Journeyitem
-            key={item.id}
-            imageName={item.image_black}
-            title={item.name}
-            year={item.year}
-          />
-        ))}
-      </div>
+    <div className="w-full sm:w-[50%] sm:h-full h-[50%] xl:w[45%]  px-4 flex flex-col items-center justify-evenly ">
+      {journey.map((item) => (
+        <Journeyitem
+          key={item.id}
+          imageName={item.image_black}
+          title={item.name}
+          year={item.year}
+        />
+      ))}
     </div>
   );
 };

@@ -14,22 +14,22 @@ const Hometext = () => {
         <h1 className="text-[2.5vw]">I'm Obioma</h1>
       </div>
       <h1 className="text-[3.5vw] mb-4">I'm a Software engineer</h1>
-      <div className="w-[50%] flex items-center justify-around">
+      <div className="w-[60%] sm:w-[50%] flex items-center justify-around">
         <a
           href="https://github.com/Hailthychicken"
           target="_blank"
-          className=" border-2 border-black-500 flex items-center justify-center hover:bg-gray-600"
+          className=" border-2 border-black-500 flex items-center justify-center hover:bg-gray-600 w-[10vw] h-[5vw] lg:h-[3.5vw] xl:h-[2.5vw]"
         >
-          <div className="flex items-center justify-center w-[10vw] h-[5vh]">
+          <div className="flex items-center justify-center text-[2vw] lg:text-[1.5vw] xl:text-[1vw]">
             Github
           </div>
         </a>
         <a
           href="/Resume.pdf"
-          className=" border-2 border-blue-500  flex items-center justify-center hover:bg-blue-300"
+          className=" border-2 border-blue-500  flex items-center justify-center hover:bg-blue-300 w-[15vw] h-[5vw] sm:w-[12vw]  lg:h-[3.5vw] xl:h-[2.5vw]"
           download
         >
-          <div className="flex items-center justify-center w-[10vw] h-[5vh]">
+          <div className="flex items-center justify-center text-[2vw] sm:text-[1.5vw] lg:text-[1.2vw] xl:text-[1vw] ">
             My Resume
           </div>
         </a>
