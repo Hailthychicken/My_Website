@@ -13,8 +13,7 @@ const Project = ({ title, description, link, coverimage }) => {
         <a
           href={link}
           target="_blank"
-          rel="noopener noreferrer"
-          className="rounded-full w-[20%] h-[15%] border-3 border-solid border-blue-500 flex items-center justify-center cursor-pointer hover:bg-blue-300 hover:w-[21%]"
+          className="rounded-full w-[20%] h-[15%] border-1 border-solid border-black bg-gray-500 flex items-center justify-center cursor-pointer hover:bg-gray-300 hover:w-[21%] active:bg-gray-500"
         >
           <div className="w-full h-full flex items-center justify-center">
             <h1 className="text-[1.2vw]">View</h1>
